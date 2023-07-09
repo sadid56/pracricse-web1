@@ -42,13 +42,14 @@ body{
    
 }
 .btn-primary{
-    padding: 15px 30px;
+    padding: 12px 30px;
     background-color: #fff;
-    color: black;
+    color: #005FAC;
     font-weight: 700;
     border: 1px solid navy;
     font-size: 20px;
     margin-top: 20px;
+    border-radius: 8px;
 }
 .btn-primary:hover{
     background-color: navy;
@@ -97,4 +98,23 @@ main{
 }
 .skill-desc{
     color: rgb(179, 169, 169);
+}
+
+.section3{
+    background-image:linear-gradient(90deg ,#005FAC  ,rgba(0,0,0,0.1)), url('images/watch.png');
+    width: 90%;
+    height: 300px;
+    margin-left: 70px;
+    border-radius: 10px;
+    position: absolute ;
+}
+.section3-container{
+    margin-left: 100px;
+    margin-top: 80px;
+    position: relative;
+}
+.section3-title{
+    font-size: 40px;
+    color: #fff;
+    width: 500px;
 }
